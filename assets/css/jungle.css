@@ -1,0 +1,48 @@
+.fadeinleft{
+
+	animation: fadeinleft 1s forwards;
+}
+
+.fadeinright{
+
+	animation: fadeinright 1s forwards;
+}
+.zoomin{
+	animation: zoomin 1.5s forwards;
+}
+
+
+@keyframes fadeinleft{
+	from{
+
+		transform: translateX(-300px);
+	}
+
+	to{
+		transform: translateX(0px);
+	
+	}
+}
+@keyframes fadeinright{
+	from{
+		
+		transform: translateX(300px);
+	}
+
+	to{
+		transform: translateX(0px);
+
+	}
+}
+
+@keyframes zoomin{
+	from{
+		
+		transform: scale(0);
+	}
+
+	to{
+			transform: scale(1);
+		
+	}
+}
